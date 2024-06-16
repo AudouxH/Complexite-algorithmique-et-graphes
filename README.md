@@ -22,6 +22,5 @@ python file.py
 
 ## Contributions
 
-- Dodji Akuesson (part 2)
-- Hamidou Tessilimi (part 3 & 4)
 - Souheil Benali (part 1)
+- Hugo Audoux (part 2)
