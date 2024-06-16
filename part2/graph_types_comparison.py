@@ -5,13 +5,13 @@ from matching_function import degree_matching
 
 # run the minimum and maximum degree matching function on each graph
 def evaluate_heuristics(graph):
-    start_time = time.perf_counter()
+    t_start = time.perf_counter()
     greedy_match = degree_matching(graph, True)
-    greedy_time = time.perf_counter() - start_time
+    greedy_time = time.perf_counter() - t_start
 
-    start_time = time.perf_counter()
+    t_start = time.perf_counter()
     least_degree_match = degree_matching(graph, False)
-    least_degree_time = time.perf_counter() - start_time
+    least_degree_time = time.perf_counter() - t_start
 
     return len(greedy_match), greedy_time, len(least_degree_match), least_degree_time
 

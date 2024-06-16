@@ -17,13 +17,13 @@ minimum_degree_times = []
 
 # Match the pair of nodes but setting a time to count the execution speed during the operation
 def evaluate_heuristics(graph):
-    start_time = time.perf_counter()
+    t_start = time.perf_counter()
     max_degree_match = degree_matching(graph, True)
-    max_degree_time = time.perf_counter() - start_time
+    max_degree_time = time.perf_counter() - t_start
 
-    start_time = time.perf_counter()
+    t_start = time.perf_counter()
     min_degree_match = degree_matching(graph, False)
-    min_degree_time = time.perf_counter() - start_time
+    min_degree_time = time.perf_counter() - t_start
 
     return len(max_degree_match), max_degree_time, len(min_degree_match), min_degree_time
 
