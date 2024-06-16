@@ -22,5 +22,7 @@ python file.py
 
 ## Contributions
 
-- Souheil Benali (part 1)
-- Hugo Audoux (part 2)
+- Part 1 : Souheil BENALI
+- Part 2 : Hugo AUDOUX
+- Part 3 : Souheil BENALI, Hugo AUDOUX
+- Part 4 : Souheil BENALI, Hugo AUDOUX
