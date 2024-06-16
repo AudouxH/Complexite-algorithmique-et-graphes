@@ -1,6 +1,6 @@
 # algo_complexity
 
-Algorithmic Complexity and Graphs projects (check the subject [here](./subject/Algorithms%20Graphs%20project%20description.pdf))
+Algorithmic Complexity and Graphs projects (check the subject [here](https://github.com/nlehir/AlgoGraph/blob/master/project/Algorithms_Graphs_project_description.pdf)))
 
 ## How to use
 
